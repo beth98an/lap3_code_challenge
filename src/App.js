@@ -1,10 +1,10 @@
 import './App.css';
-import { ByUser } from './components'
+import { Home } from './pages'
 
 function App() {
   return (
     <>
-    <ByUser/>
+    <Home/>
     </>
   );
 }
