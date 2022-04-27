@@ -15,6 +15,7 @@ export const Home = () => {
 
   return (
       <>
+        <h1>WELCOME TO REPOS ARE LIFE</h1>
         <h2>Hello {username?username:<ByUser getRepos={search}/>}</h2>
       </>
   )
