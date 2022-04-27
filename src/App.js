@@ -1,24 +1,22 @@
-
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import {Navbar} from './components';
-import {Home, Search} from "./pages";
-import {Footer} from './layout';
+import { Routes, Route } from 'react-router-dom'; // using version 6
+import { Navbar } from './components';
+import { Home, Search } from "./pages";
+// import { Footer } from './layout';
 
 function App() {
   return (
-    <div className="App">
+    <div id="app">
       <Navbar />
     <main>
       <Routes>
-          <Route exact path="/" element={ <Home />} />
-          <Route path="/search" element= { <Search />} />
+          <Route exact path="/"><Home /></Route>
+          <Route path="/search"><Search /></Route>
       </Routes> 
-      <Footer />
     </main>
+      {/* <Footer /> */}
     </div>
-  )
+  );
 }
 
 export default App;
