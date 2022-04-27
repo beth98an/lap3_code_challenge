@@ -23,26 +23,11 @@ export const Search=() =>{
 
   return (
       <>
-      <div>REPOS ARE LIFE</div>
-        <h2>Hello {username?username:''}!</h2>
+        <h2>Hello {username?username:''}! Here are your repos!</h2>
         { error ? <p role='alert'>Oops there's been an error!</p> : renderRepos(repos) } 
       </>
   )
 }
 
-
-// import React from "react";
-// import { ByUser } from "../../components";
-
-// function Search() {
-//     return (
-//         <>
-//             <div>
-//                 <ByUser/>
-//                 {/* <ByRepo/> */}
-//             </div>
-//         </>
-//     );
-// }
 
 export default Search

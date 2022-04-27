@@ -15,11 +15,11 @@ a {
 
 a:hover { 
   font-weight: 800;
-  color: white;
+  color: rgb(29, 52, 152);
 }
 
 .active {
-  color: white;
+  color: rgb(168, 17, 17);
 }
 
-.home-link { color: wheat; }
+.home-link { color: rgb(243, 193, 101); }
