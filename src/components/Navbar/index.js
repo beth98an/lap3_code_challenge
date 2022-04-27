@@ -7,7 +7,11 @@ export const Navbar = () => {
     return (
         <nav>
             <NavLink className="home-link" to="/">Home</NavLink>
+<<<<<<< HEAD
             <NavLink activeclassname="active" to="/search">Repos</NavLink>
+=======
+            <NavLink activeclassname="active" to="/search">Repositories</NavLink>
+>>>>>>> 228352cfa5ee00a862b17b460bb66b702891472f
 
             {/* <button id="back-button" onClick={() => navigate(-1)}>Back</button> */}
 

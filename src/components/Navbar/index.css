@@ -1,25 +1,36 @@
 nav {
-  width: 100%;
-  background-color: var(--primary);
-  padding: 25px;
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 103%;
+  background-color: #262c66;
   display: flex;
-  justify-content: space-evenly;
-}
+  margin-bottom: 30px;
+  justify-content: space-around;
+  border-color: #262c66;
+  border-style: solid;
+  border-width: 2px;
+  
 
-a { 
-  color: var(--opacity);
+}
+a {
+  width: 418px;
+  padding: 25px;
+  text-align: center;
   text-decoration: none;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
+  color: rgb(235, 214, 214);
+  font-size: 25px;
 
-a:hover { 
-  font-weight: 800;
-  color: rgb(29, 52, 152);
 }
-
+a:hover {
+  color: #dce7e9;
+  font-weight: bolder;
+  background-color: #688abd;
+}
 .active {
-  color: rgb(168, 17, 17);
+  color: #e7f0f5;
+  font-weight: bolder;
+  background-color: #688abd;
+  border-color: #688abd;
+  border-style: solid;
+  border-width: 1px;
 }
-
-.home-link { color: rgb(243, 193, 101); }
