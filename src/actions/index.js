@@ -2,9 +2,9 @@ import axios from 'axios';
 
 const loading = username=> ({ type: 'LOADING', payload: username });
 
-const loadResult = (data) => ({ 
+const loadResult = (repos) => ({ 
     type: 'LOAD_RESULT',
-    payload: data
+    payload: repos
 });
 
 export const getResult = searchTerm => {
@@ -12,6 +12,7 @@ export const getResult = searchTerm => {
         dispatch(loading(searchTerm));
         try {
             const repos = await fetchRepos(searchTerm);
+            console.log(repos)
             dispatch(loadResult(repos))
         } catch (err) {
             console.warn(err.message);
@@ -27,7 +28,7 @@ export const fetchRepos = async(username) =>{
         return data
     }
     catch(err) {
-        if (data.status === 404) { throw Error('That\'s not a valid username!') }
+        // if (data.status === 404) { throw Error('That\'s not a valid username!') }
         throw new Error(err.message)
     }
 }
