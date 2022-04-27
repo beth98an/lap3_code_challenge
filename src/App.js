@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { ByUser } from './components'
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+    <ByUser/>
+    </>
   );
 }
 
