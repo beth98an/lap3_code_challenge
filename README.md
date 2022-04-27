@@ -8,7 +8,7 @@
 - Run `npm install` to install dependencies
 
 ### Usage
-
+- Run `npm start` to run app
 
 ## Changelog
 
@@ -19,3 +19,5 @@
 ## Wins & Challenges
 
 ### Wins
+
+### Challanges

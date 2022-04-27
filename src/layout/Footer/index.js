@@ -4,11 +4,12 @@ import './index.css';
 const Footer = () => {
   return (
     <>
-      <div id="footer">
+      <span id="footer">
     
-      <h2 className='footer-text'> Contact us | Terms & Conditions </h2>
+      <h2 role='details'> Contact us | Terms & Conditions </h2>
       
-      </div>
+      
+      </span>
 
     </>
   );
