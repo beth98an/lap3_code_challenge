@@ -23,7 +23,7 @@ export const Search=() =>{
 
   return (
       <>
-        <h2>Hello {username?username:''}! Here are your repos!</h2>
+        {username?<h2>Hello {username}! Here are your repos!</h2>:<h2>Go to the home page to search for your repos!</h2>}
         { error ? <p role='alert'>Oops there's been an error!</p> : renderRepos(repos) } 
       </>
   )
