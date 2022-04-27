@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
 export const ByUser = ({getRepos}) => {
     const [username, setUsername] = useState();
@@ -23,11 +22,4 @@ export const ByUser = ({getRepos}) => {
     </form>
     </>
   )
-}
-
-export const getRepos = async(username) =>{
-    const resp = await axios.get(`https://api.github.com/users/${username}/repos`)
-    const data = resp.data
-    console.log(data)
-    return data
 }
