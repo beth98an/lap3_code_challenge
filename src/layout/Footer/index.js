@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <span id="footer">
     
-      <h2 role='details'> Contact us | Terms & Conditions </h2>
+      <h2 className='details'> Terms | Privacy | Security | Status | Docs | Contact | GitHub | Pricing | API | Training | Blog | About</h2>
       
       
       </span>

@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
         <nav>
             <NavLink className="home-link" to="/">Home</NavLink>
-            <NavLink activeclassname="active" to="/search">Search</NavLink>
+            <NavLink activeclassname="active" to="/search">Repositories</NavLink>
 
             {/* <button id="back-button" onClick={() => navigate(-1)}>Back</button> */}
 

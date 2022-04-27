@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import {Navbar} from './components';
 import { Home, Search } from "./pages";
-// import {Footer} from './layout';
+import {Footer} from './layout';
 
 function App() {
   return (
@@ -14,9 +14,8 @@ function App() {
           <Route path="/" element={ <Home />} />
           <Route path="/search" element= { <Search />} />
       </Routes> 
-      {/* <Footer /> */}
     </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
