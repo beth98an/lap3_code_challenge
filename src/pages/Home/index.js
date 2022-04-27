@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-
-function Home() {
-
-    return (
-        <>
-        <div id="welcome">
-            <h1>Hello!</h1>
-            <h2>Welcome to Github, that is not actually Github</h2>
-        </div>
-        </>
-    );
-};
-
-export default Home;
-=======
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { ByUser } from '../../components'
@@ -51,4 +34,3 @@ export const Home = () => {
       </>
   )
 }
->>>>>>> 02987e5776e46426a0035eb237f085c97e803614
