@@ -1,0 +1,15 @@
+input[type=text] {
+    width: 20%;
+    padding: 10px 10px 10px;
+    margin-left: 5px;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+    padding: 10px 10px 10px;
+    margin-left: 0.5%;
+    color: rgb(127, 167, 219);
+    
+}
+
