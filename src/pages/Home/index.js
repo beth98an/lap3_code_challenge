@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { ByUser } from '../../components'
 import { getResult } from '../../actions';
+import './index.css';
 
 export const Home = () => {
   

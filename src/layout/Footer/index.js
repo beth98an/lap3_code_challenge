@@ -5,10 +5,9 @@ const Footer = () => {
   return (
     <>
       <span id="footer">
-    
-      <h2 className='details'> Terms | Privacy | Security | Status | Docs | Contact | GitHub | Pricing | API | Training | Blog | About</h2>
-      
-      
+        <footer>
+          <h2 className='details'> Terms | Privacy | Security | Status | Docs | Contact | GitHub | Pricing | API | Training | Blog | About</h2>
+        </footer>
       </span>
 
     </>
