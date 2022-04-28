@@ -1,0 +1,36 @@
+nav {
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 103%;
+  background-color: #262c66;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  border-color: #262c66;
+  border-style: solid;
+  border-width: 2px;
+  
+
+}
+a {
+  width: 418px;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(235, 214, 214);
+  font-size: 25px;
+
+}
+a:hover {
+  color: #dce7e9;
+  font-weight: bolder;
+  background-color: #688abd;
+}
+.active {
+  color: #e7f0f5;
+  font-weight: bolder;
+  background-color: #688abd;
+  border-color: #688abd;
+  border-style: solid;
+  border-width: 1px;
+}
